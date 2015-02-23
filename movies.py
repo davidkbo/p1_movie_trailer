@@ -1,4 +1,4 @@
-class Movie():
+class Movie(object):
     # Initializing the variables for the class
     def __init__(self, title, story_line, poster_image, trailer_youtube):
         self.title = title
